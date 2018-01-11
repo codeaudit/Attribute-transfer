@@ -33,7 +33,7 @@ sh run.sh train DeleteOnly yelp
  ```
 
 ## Dependencies
-Python >= 2.7, Theano >=0.8 <br>
+Python == 2.7, Theano >=0.8 <br>
 Python requirement: numpy, scipy, nltk
 
 
