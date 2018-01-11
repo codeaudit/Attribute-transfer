@@ -7,9 +7,8 @@ NOTES:
 	* If you encounter any problems, please open a GitHub issue, or submit a pull request if you know the fix!
 * This code requires data directories that we have not uploaded yet.
 * This is research code meant to serve as a reference implementation. We do not recommend heavily extending or modifying this codebase for other purposes.
+
 If you have questions, please email Juncen Li at mlijuncenm at gmail.com.
-This work is based on Theano
-Python requirement: theano numpy scipy nltk
 
 ## Data Format
 Please name the corpora of two styles by "x.0" and "x.1" respectively, and use "x" to refer to them in options. Each file should consist of one sentence per line with tokens separated by a space.
@@ -33,6 +32,8 @@ Where model_name can be "DeleteOnly" or "DeleteAndRetrieve", data_name can be "y
 sh run.sh train DeleteOnly yelp
  ```
 
-
+## Dependencies
+Python >= 2.7, Theano >=0.8 <br>
+Python requirement: numpy, scipy, nltk
 
 
